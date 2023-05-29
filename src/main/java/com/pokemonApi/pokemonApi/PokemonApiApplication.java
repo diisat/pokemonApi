@@ -5,7 +5,6 @@ import com.pokemonApi.pokemonApi.model.Pokemon;
 import com.pokemonApi.pokemonApi.service.PokemonService;
 import com.pokemonApi.pokemonApi.service.PokemonSoapService;
 import com.pokemonApi.pokemonApi.soap.GetPokemonSoapRequest;
-import com.pokemonApi.pokemonApi.soap.PokemonSoapEndpoint;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -17,9 +16,9 @@ public class PokemonApiApplication {
 
 	public static void main(String[] args) {
 
-		//SpringApplication.run(PokemonApiApplication.class, args);
+		SpringApplication.run(PokemonApiApplication.class, args);
 
-		PokemonService pokemonService = new PokemonService();
+		/**PokemonService pokemonService = new PokemonService();
 		PokemonSoapService pokemonSoapService = new PokemonSoapService(pokemonService);
 		PokemonController pokemonController = new PokemonController(pokemonSoapService);
 
@@ -30,11 +29,10 @@ public class PokemonApiApplication {
 		}
 
 		/////////Validation for soap exposure
-		PokemonSoapEndpoint pokemonEndpoint = new PokemonSoapEndpoint(pokemonSoapService);
-		String url = "http://localhost:8080/pokemon";
-		//Endpoint.publish(url, pokemonEndpoint);
+		//String url = "http://localhost:8080/pokemon";
+		//Endpoint.publish(url, pokemonController);
 
-		System.out.println("The soap Pokemon service is exposed in: " + url);
+		//System.out.println("The soap Pokemon service is exposed in: " + url);**/
 
 	}
 

@@ -2,10 +2,12 @@ package com.pokemonApi.pokemonApi.service;
 
 import com.pokemonApi.pokemonApi.model.Pokemon;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
+@Service
 public class PokemonService {
 
     private static final String BASE_URL = "https://pokeapi.co/api/v2/pokemon";

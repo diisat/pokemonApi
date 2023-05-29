@@ -11,6 +11,7 @@ public class SoapConfig {
     @Bean
     public Endpoint endpoint(PokemonController pokemonController) {
         Endpoint endpoint = Endpoint.publish("http://localhost:8080/pokemon", pokemonController);
+
         return endpoint;
     }
 }

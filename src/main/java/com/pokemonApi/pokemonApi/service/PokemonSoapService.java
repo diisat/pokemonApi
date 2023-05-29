@@ -3,9 +3,12 @@ package com.pokemonApi.pokemonApi.service;
 import com.pokemonApi.pokemonApi.model.Pokemon;
 import com.pokemonApi.pokemonApi.soap.GetPokemonSoapRequest;
 import com.pokemonApi.pokemonApi.soap.GetPokemonSoapResponse;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class PokemonSoapService {
 
     private PokemonService pokemonService;
