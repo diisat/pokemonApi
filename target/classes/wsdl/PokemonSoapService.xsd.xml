@@ -1,0 +1,4 @@
+<sch:GetPokemonSoapRequest xmlns:sch="http://localhost:8080/PokemonSoapService/schema">
+  <sch:limit>string</sch:limit>
+  <sch:offset>string</sch:offset>
+</sch:GetPokemonSoapRequest>

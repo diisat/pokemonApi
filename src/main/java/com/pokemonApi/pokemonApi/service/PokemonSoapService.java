@@ -3,7 +3,7 @@ package com.pokemonApi.pokemonApi.service;
 import com.pokemonApi.pokemonApi.model.Pokemon;
 import com.pokemonApi.pokemonApi.soap.GetPokemonSoapRequest;
 import com.pokemonApi.pokemonApi.soap.GetPokemonSoapResponse;
-import org.springframework.context.annotation.Bean;
+import org.apache.cxf.annotations.SchemaValidation;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -17,6 +17,17 @@ public class PokemonSoapService {
         this.pokemonService = pokemonService;
     }
 
+    /**@Override
+    public localhost._8080.pokemonsoapservice.schema.GetPokemonSoapResponse getPokemon(localhost._8080.pokemonsoapservice.schema.GetPokemonSoapRequest parameters) {
+        int limit = 5;
+        int offset = 5;
+        List<Pokemon> pokemonList = pokemonService.getPokemonList(limit, offset);
+        localhost._8080.pokemonsoapservice.schema.GetPokemonSoapResponse  response = new localhost._8080.pokemonsoapservice.schema.GetPokemonSoapResponse ();
+        response.setResult(pokemonList);
+
+        return response;
+    }**/
+
     public GetPokemonSoapResponse getPokemonList(GetPokemonSoapRequest request) {
 
         int limit = request.getLimit();
@@ -27,6 +38,7 @@ public class PokemonSoapService {
 
         return response;
     }
+
 
 
 }

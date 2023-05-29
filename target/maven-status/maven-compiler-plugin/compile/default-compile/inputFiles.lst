@@ -1,0 +1,16 @@
+/Users/dianaitr/Documents/pokemonApi/src/main/java/com/pokemonApi/pokemonApi/service/PokemonService.java
+/Users/dianaitr/Documents/pokemonApi/src/main/java/com/pokemonApi/pokemonApi/soap/GetPokemonSoapResponse.java
+/Users/dianaitr/Documents/pokemonApi/src/main/java/com/pokemonApi/pokemonApi/soap/SoapConfig.java
+/Users/dianaitr/Documents/pokemonApi/src/main/java/com/pokemonApi/pokemonApi/controller/PokemonController.java
+/Users/dianaitr/Documents/pokemonApi/src/generated/java/localhost/_8080/pokemonsoapservice/schema/ObjectFactory.java
+/Users/dianaitr/Documents/pokemonApi/src/main/java/com/pokemonApi/pokemonApi/PokemonApiApplication.java
+/Users/dianaitr/Documents/pokemonApi/src/main/java/com/pokemonApi/pokemonApi/service/PokemonListResponse.java
+/Users/dianaitr/Documents/pokemonApi/src/generated/java/localhost/_8080/pokemonsoapservice/schema/GetPokemonSoapRequest.java
+/Users/dianaitr/Documents/pokemonApi/src/main/java/com/pokemonApi/pokemonApi/service/PokemonSoapService.java
+/Users/dianaitr/Documents/pokemonApi/src/generated/java/localhost/_8080/pokemonsoapservice/wsdl/PokemonServicePort.java
+/Users/dianaitr/Documents/pokemonApi/src/generated/java/localhost/_8080/pokemonsoapservice/schema/package-info.java
+/Users/dianaitr/Documents/pokemonApi/src/main/java/com/pokemonApi/pokemonApi/util/PaginationUtil.java
+/Users/dianaitr/Documents/pokemonApi/src/main/java/com/pokemonApi/pokemonApi/soap/GetPokemonSoapRequest.java
+/Users/dianaitr/Documents/pokemonApi/src/generated/java/localhost/_8080/pokemonsoapservice/schema/GetPokemonSoapResponse.java
+/Users/dianaitr/Documents/pokemonApi/src/main/java/com/pokemonApi/pokemonApi/model/Pokemon.java
+/Users/dianaitr/Documents/pokemonApi/src/generated/java/localhost/_8080/pokemonsoapservice/wsdl/PokemonService.java

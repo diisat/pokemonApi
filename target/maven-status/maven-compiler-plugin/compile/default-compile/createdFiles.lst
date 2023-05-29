@@ -1,0 +1,16 @@
+com/pokemonApi/pokemonApi/service/PokemonListResponse.class
+com/pokemonApi/pokemonApi/util/PaginationUtil.class
+localhost/_8080/pokemonsoapservice/schema/GetPokemonSoapResponse.class
+com/pokemonApi/pokemonApi/soap/GetPokemonSoapRequest.class
+localhost/_8080/pokemonsoapservice/wsdl/PokemonServicePort.class
+localhost/_8080/pokemonsoapservice/schema/GetPokemonSoapRequest.class
+com/pokemonApi/pokemonApi/service/PokemonSoapService.class
+com/pokemonApi/pokemonApi/soap/SoapConfig.class
+com/pokemonApi/pokemonApi/controller/PokemonController.class
+localhost/_8080/pokemonsoapservice/schema/ObjectFactory.class
+com/pokemonApi/pokemonApi/PokemonApiApplication.class
+com/pokemonApi/pokemonApi/service/PokemonService.class
+localhost/_8080/pokemonsoapservice/wsdl/PokemonService.class
+com/pokemonApi/pokemonApi/soap/GetPokemonSoapResponse.class
+com/pokemonApi/pokemonApi/model/Pokemon.class
+localhost/_8080/pokemonsoapservice/schema/package-info.class
